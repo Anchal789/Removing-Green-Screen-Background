@@ -1,0 +1,25 @@
+canvas{
+    border: 1px solid red;
+}
+body{
+    background: black;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box{
+    position: relative;
+    width: 700px;
+
+}
+.box canvas{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+video{
+    outline: none;
+}
